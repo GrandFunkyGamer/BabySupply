@@ -1,19 +1,35 @@
-h3{
-	color:#f0ffff ;
-	font-size:3px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+header div h3{
+	color:#000000;
+	font-family:'Open Sans Condensed', sans-serif; 
 }
-li{
-	color:#7fffd4;
-	font-size:3px;
-	font-family:Cursive,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body div h3{
+	color:#808080;
+	font-family:"Open Sans", sans-serif;
 }
-ul > li{
-	color:#5f9ea0;
-	font-size:3px;
-	font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+body div h3:hover{
+		color:#4EB7F5;
+		font-weight: bold;
+		text-decoration: none;
 }
-span{
-	color:indigo;
-	background-color:lightgreen;
+body div ol{
+	color:#4EB7F5;
+	font-family:"Open Sans", sans-serif;
+}
+body div ul{
+	color:#4EB7F5;
+	font-family:"Opens Sans", sans-serif;
+}
+body div ul li{
+	color:#808080;
+	font-family:"Opens Sans", sans-serif;
+}
+footer div p{
+	color:#222222;
+	font-family:Open Sans Condense;
+	text-decoration: underline;
+}
+footer div p:hover{
+	color:#000000;
+	font-family:Open Sans Condense;
+	text-decoration: underline;
 }
