@@ -1,3 +1,30 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    width: 92%;
+    border: 00;
+    padding: 00;
+    margin: 4%;
+    height: 500px;
+}
+
+@media screen and (min-width: 768px){
+.img2-jumbotron {
+    padding-top: 200px;
+    padding-bottom: 290px;
+}
+
+.img-jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-image: url(http://media.gettyimages.com/photos/smiling-black-baby-girl-eating-cereal-from-bowl-in-high-chair-picture-id672157751);
+}
+
 header div h3{
 	color:#000000;
 	font-family:'Open Sans Condensed', sans-serif; 
@@ -32,3 +59,5 @@ footer div p:hover{
 	font-family:Open Sans Condense;
 	text-decoration: underline;
 }
+
+
