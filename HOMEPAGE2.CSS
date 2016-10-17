@@ -1,9 +1,69 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    padding-top:5.5%;
+    /**Handled issue where container content were hidden under nav bar by adding some padding to the top of the <body>.**/
 }
 
-footer {
+.navbar-divider{
+ 	margin-top:5px;
+ 	margin-bottom:5px;
+ 	height:1px;
+ 	width:100%;
+ 	border-top:1px solid gray;
+ }
+
+.navbar-cust-style {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 13px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.contact-font{
+	margin-bottom: 20px;
+  	font-size: 14px;
+  	font-weight: 100;
+  	line-height: 2;
+}
+
+.btn-cust {
+  color: #ffffff;
+  background-color: #4eb7f5;
+  border-color: #46b8da;
+}
+
+.btn-cust:focus,
+.btn-cust.focus {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+
+.btn-cust:hover {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+/**.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}**/
+
+.margin-cust {
     width: 92%;
     border: 00;
     padding: 00;
