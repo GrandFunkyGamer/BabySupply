@@ -10,7 +10,7 @@ ol, ul, li {
 }
 
 .divider-custom {
-	border-bottom: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
 }
 
 .category-title {   
@@ -38,7 +38,7 @@ ol, ul, li {
 
 /**FOR MOBILE VIEW**/
 .menu-toggle-name {
-	position: absolute;
+  position: absolute;
     bottom: -6px;
     left: 8px;
     font-size: 12px;
@@ -136,7 +136,7 @@ span#cart-total {
 .divider-vertical {
     height: 30px;
     margin: 0 1px;
-   	border-left: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
 }
 
 @media (max-width: 767px) {
@@ -158,35 +158,35 @@ span#cart-total {
 }
 
 .navbar-custom .logo {
-  	color: #4eb7f5;
+    color: #4eb7f5;
 }
 
 .navbar-custom .logo:hover,
 .navbar-custom .logo:focus {
-  	color: grey;
-  	background-color: transparent;
+    color: grey;
+    background-color: transparent;
 }
 
 .navbar-custom .navbar-nav > li > a {
-  	color: #4eb7f5;
+    color: #4eb7f5;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
-  	color: #FFFFFF;
-  	background-color: #4eb7f5;
+    color: #FFFFFF;
+    background-color: #4eb7f5;
 }
 
 /** FORM STYLES .navbar-custom .navbar-collapse,
 .navbar-custom .navbar-form {
-  	border-color: #e7e7e7;
+    border-color: #e7e7e7;
 }**/
 
 .navbar-custom .navbar-nav > .open > a,
 .navbar-custom .navbar-nav > .open > a:hover,
 .navbar-custom .navbar-nav > .open > a:focus {
-  	background-color: #4eb7f5;
-  	color: #ffffff;
+    background-color: #4eb7f5;
+    color: #ffffff;
 }
 
 /** FROM NAVBAR-DEFAULT @media (max-width: 767px) {
@@ -201,30 +201,30 @@ span#cart-total {
 }
 
 .contact-font{
-	margin-bottom: 20px;
-  	font-size: 14px;
-  	font-weight: 100;
-  	line-height: 2;
+  margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 2;
 }
 
 .btn-cust {
-  	color: #ffffff;
-  	background-color: #4eb7f5;
-  	border-color: #4eb7f5;
+    color: #ffffff;
+    background-color: #4eb7f5;
+    border-color: #4eb7f5;
     border-radius: 1px;
 }
 
 .btn-cust:focus,
 .btn-cust.focus {
-  	color: #ffffff;
-  	background-color: #31b0d5;
-  	border-color: #1b6d85;
+    color: #ffffff;
+    background-color: #31b0d5;
+    border-color: #1b6d85;
 }
 
 .btn-cust:hover {
-  	color: #ffffff;
-  	background-color: #31b0d5;
-  	border-color: #269abc;
+    color: #ffffff;
+    background-color: #31b0d5;
+    border-color: #269abc;
 }
 
 /**.navbar li a, .navbar .navbar-brand {
@@ -250,7 +250,7 @@ span#cart-total {
 }
 
  .category-title{
- 	  margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -878,7 +878,7 @@ a {
 
 .jumbotron {
     position: relative;
-    background: #d3d3d3 url("img/baby.jpg") center center;
+    background: #ffffff url("img/thebabyhub1.svg") center center;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -888,93 +888,20 @@ a {
 
 
 
-/**.footer1 {
-	margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    background-color: grey;
+/***********************/
+/*      FOOTER         */
+/***********************/
+
+
+.footer {
+    background: #f2f2f2;
+    height: auto;
+    padding-bottom: 30px;
+    /**position: relative;**/
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #DDDDDD;
 }
 
-.footer-div {
-	margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-.footer-middle {
-    padding: 28px 0 27px;
-}
-
-.footer-middle-content {
-	max-width: 1220px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 20px;
-}
-
-.footer-middle-content-wrapper{
-    width: 20%;
-   	float: left;
-}
-
-.footer-middle-content-wrapper li {
-    margin-bottom: 15px;
-}
-
-.footer-middle-content-title{
-    margin-bottom: 15px;
-    color: #4eb7f5;
-    font: 15px;
-}**/
-
-.footer-cust {
-	margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    background-color: #f5f5f5;
-}
-
-.footer-div {
-	margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-.footer-middle {
-    padding: 28px 0 27px;
-}
-
-.footer-content-wrapper {
-    max-width: 1220px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 20px;
-}
-
-.footer-middle-navigation {
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-
-.footer-middle-content-wrapper {
-	width: 23%;
-	float: left;
-}
-
-
-footer div p:hover{
-	color:#000000;
-	font-family:Open Sans Condense;
-	text-decoration: underline;
-}
 
 
