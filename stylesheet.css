@@ -1,0 +1,70 @@
+.jumbotron {
+    position: relative;
+    background: rgba(0, 0, 0, 0) url("img/thebabyhub.svg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    padding-top:  300px;
+    align-content: center;
+}
+
+.survey {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+.comingsoon {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: underline;
+}
+
+.comingsoon-social-share {
+      text-align: center;
+      margin-top: 30px;
+}
+
+.comingsoon-social-share p a {
+      margin: 0 10px 0 0;
+      color: #fff;
+      display: inline-block;
+      width: 26px;
+      height: 26px;
+      border-radius: 13px;
+      line-height: 26px;
+      font-size: 15px;
+      text-align: center;
+      vertical-align: bottom;
+      border-color: #4eb5f7;
+}
+
+
+.comingsoon-social-share p a.facebook {
+      background-color: #f8d4d4;
+}
+
+.product-social-share p a.instagram {
+      background-color: #f8d4d4;
+}
+
+.comingsoon-social-share p a.twitter {
+      background-color: #f8d4d4;
+}
+
+.comingsoon-social-share p a.envelope {
+      background-color: #f8d4d4;
+}
+
+.comingsoon-social-share p a i {
+      vertical-align: bottom;
+      line-height: 26px;
+}
+
+a i.fa {
+      margin: 0 5px;
+      color: #4eb5f7;
+}
+
