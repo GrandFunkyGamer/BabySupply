@@ -9,18 +9,18 @@
     align-content: center;
 }
 
-.survey {
-    text-align: center;
-    font-family: 'Courgette', cursive;
-    font-size: 20px;
-    margin-top: 20px;
-}
-
 .comingsoon {
     text-align: center;
     font-size: 60px;
     font-family: 'Amatic SC', cursive;
     text-decoration: underline;
+}
+
+.survey {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .comingsoon-social-share {
@@ -41,7 +41,6 @@
       vertical-align: bottom;
       border-color: #4eb5f7;
 }
-
 
 .comingsoon-social-share p a.facebook {
       background-color: #f8d4d4;
