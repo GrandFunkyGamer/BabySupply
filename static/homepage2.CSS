@@ -1,4 +1,4 @@
-html, body {
+chtml, body {
     max-width: 100%;
     overflow-x: hidden;
     /**Handled issue where container content were hidden under nav bar by adding some padding to the top of the <body>.**/
@@ -551,6 +551,16 @@ a i.fa {
 
 .headeroffset {
       padding-top: 5px;
+}
+
+.checkout-header {
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 10px 0 0;
+    position: relative;
+    text-transform: uppercase;
 }
 
 .panel {   
