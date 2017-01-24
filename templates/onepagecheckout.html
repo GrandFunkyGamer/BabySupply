@@ -5,8 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Checkout | The Baby Hub</title>
-  <link type="text/css" rel="stylesheet" href="/static/bootstrap.css"/>
-  <link type="text/css" rel="stylesheet" href="/static/homepage2.CSS"/>
+  <link type="text/css" rel="stylesheet" href="static/bootstrap.css"/>
+  <link type="text/css" rel="stylesheet" href="static/homepage2.CSS"/>
+
 </head>
 <body>
   <header>
@@ -201,7 +202,7 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail"><i class="fa fa-envelope" aria-hidden="true" style="color: #4eb7f5"></i> Email Address <small class="text-muted">Required</small></label>
                                             <input type="email" class="form-control" id="exampleInputEmail" placeholder="eg. user@example.com">
-                                            <small id="Email" class="form-text text-muted">We'll never share your details with anyone else.</small>
+                                            <small id="Email" class="form-text text-muted">We'll never share your email with anyone else.</small>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputLocation"><i class="fa fa-map-marker" aria-hidden="true" style="color: #4eb7f5"></i> Delivery Location <small class="text-muted">Required</small></label>
@@ -211,6 +212,15 @@
                                         <div class="col-xs-12 col-sm-6">
                                         <label for="comments"><i class="fa fa-book" aria-hidden="true" style="color: #4eb7f5"></i> Notes <small class="text-muted">Optional</small></label>
                                         <textarea class="form-control" id="comments" name="comments" placeholder="Notes about your order, eg. Special notes for delivery" rows="5"></textarea>
+                                <h5><strong>
+                                    <p>Choose a payment method</p>
+                                </strong></h5>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio">Payment on Delivery - Cash or Point Of Sale (P.O.S) Device(Ghana - Accra & Tema Only)</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio">Mobile Money</label>
+                                </div>
                                         </div>
                                   <div class="col-xs-12 col-sm-12">
                                   <div class="text-right">
@@ -223,7 +233,7 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap.js"></script>
+    <script src="static/bootstrap.js"></script>
     <script src="https://use.fontawesome.com/e7c7bd093f.js"></script>
 </body>
 </html>
