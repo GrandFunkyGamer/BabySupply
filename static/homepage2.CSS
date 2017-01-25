@@ -1,4 +1,4 @@
-chtml, body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
     /**Handled issue where container content were hidden under nav bar by adding some padding to the top of the <body>.**/
@@ -563,6 +563,22 @@ a i.fa {
     text-transform: uppercase;
 }
 
+.radio-container {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    -webkit-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+}
+.label-payment-form {
+    margin-bottom: 5px; 
+    background-image: url(payment-methods.png); 
+    background-repeat: no-repeat; 
+    background-position: right 26px;
+}
+
 .panel {   
       margin-bottom: 10px;
       border-radius: 1px;
@@ -892,7 +908,7 @@ a {
 /***********************/
 
 
-.footer {
+.footer-cust {
     background: #f2f2f2;
     height: auto;
     padding-bottom: 30px;
@@ -900,6 +916,20 @@ a {
     width: 100%;
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #DDDDDD;
+}
+
+.footer-cust h3 {
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 10px 0 10px;
+    text-transform: uppercase;
+    color: #4eb5f7;
+}
+
+.footer-cust a {
+    color: #ddd;
 }
 
 
