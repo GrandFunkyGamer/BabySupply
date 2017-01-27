@@ -7,4 +7,4 @@ def home():
 	return render_template("thebabyhub.html")
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True)		
