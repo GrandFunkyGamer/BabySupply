@@ -572,12 +572,24 @@ a i.fa {
     -o-border-radius: 1px;
     border-radius: 1px;
 }
-.label-payment-form {
+.payment-method-visa {
     margin-bottom: 5px; 
     background-image: url(payment-methods.png); 
     background-repeat: no-repeat; 
     background-position: right 26px;
 }
+
+.payment-method-mmoney {
+    background-image: url(payment-methods-1.jpeg); 
+    background-repeat: no-repeat; 
+    background-position: right -338px;
+}
+
+
+
+}
+
+
 
 .panel {   
       margin-bottom: 10px;
@@ -919,7 +931,7 @@ a {
 }
 
 .footer-cust h3 {
-    border-bottom: 1px solid #DDDDDD;
+    border-bottom: 1px solid #583937;
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
@@ -929,8 +941,31 @@ a {
 }
 
 .footer-cust a {
-    color: #ddd;
+    color: #583937;
 }
+
+.footer-cust li {
+    margin-bottom: 10px;
+}
+
+.footer-cust ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 20px;
+    color: #888888;
+}
+
+
+    border-bottom: 2px solid #adadad;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    width: 40px;
+}
+
 
 
 
