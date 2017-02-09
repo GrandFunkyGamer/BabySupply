@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Checkout | The Baby Hub</title>
-  <link type="text/css" rel="stylesheet" href="static/bootstrap.css"/>
-  <link type="text/css" rel="stylesheet" href="static/homepage2.CSS"/>
+  <link type="text/css" rel="stylesheet" href="bootstrap.css"/>
+  <link type="text/css" rel="stylesheet" href="homepage2.CSS"/>
 </head>
 <body>
   <header>
@@ -32,7 +32,7 @@
           <div class="col-md-6 ">
             <div id="logo">
               <a href="#">
-                <img src="img/the-baby-hub-4.png" title="The Baby Hub" alt="The Baby Hub" class="img-responsive">
+                <img src="static/img/thebabyhub1.svg" title="The Baby Hub" alt="The Baby Hub" class="img-responsive">
               </a>
             </div>
           </div>
@@ -191,20 +191,20 @@
       <h2 class="checkout-header">Fill in with your shipping and billing info</h2>
       <div class="col-xs-12 col-sm-6">
       <div class="form-group">
-         <label for="InputName"><i class="fa fa-user" aria-hidden="true" style="color: #4eb7f5"></i> Name <small class="text-muted">Required</small></label>
+         <label for="InputName"><i class="fa fa-user" aria-hidden="true" style="color: #4eb7f5"></i> Name <small class="text-muted">Required<span style="color: red;">*</span></small></label>
                                             <input type="text" class="form-control" id="InputName" placeholder="Enter Full Name">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputNumber"><i class="fa fa-mobile fa-lg" aria-hidden="true" style="color: #4eb7f5"></i> Contact Phone <small class="text-muted">(For shipping related questions)</small></label>
+                                            <label for="exampleInputNumber"><i class="fa fa-mobile fa-lg" aria-hidden="true" style="color: #4eb7f5"></i> Contact Phone <small class="text-muted">(For shipping related questions)<span style="color: red;">*</span></small></label>
                                             <input type="number" class="form-control" id="exampleInputNumber" placeholder="Contact Number">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputEmail"><i class="fa fa-envelope" aria-hidden="true" style="color: #4eb7f5"></i> Email Address <small class="text-muted">Required</small></label>
+                                            <label for="exampleInputEmail"><i class="fa fa-envelope" aria-hidden="true" style="color: #4eb7f5"></i> Email Address <small class="text-muted">Required<span style="color: red;">*</span></small></label>
                                             <input type="email" class="form-control" id="exampleInputEmail" placeholder="eg. user@example.com">
                                             <small id="Email" class="form-text text-muted">We'll never share your email with anyone else.</small>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputLocation"><i class="fa fa-map-marker" aria-hidden="true" style="color: #4eb7f5"></i> Delivery Location <small class="text-muted">Required</small></label>
+                                            <label for="exampleInputLocation"><i class="fa fa-map-marker" aria-hidden="true" style="color: #4eb7f5"></i> Delivery Location <small class="text-muted">Required<span style="color: red;">*</span></small></label>
                                             <input type="text" class="form-control" id="exampleInputLocation" placeholder="eg. East Legon, American House">
                                         </div>
                                         </div>
@@ -216,8 +216,8 @@
                                 </strong></h5>
                                 <div class="radio radio-container">
                                <ul style="padding-left: 10px; margin-top: 10px;">
-                                    <li><label class="label-payment-form"><input type="radio" name="optradio">Payment on Delivery - Cash or Point Of Sale (P.O.S) Device(Ghana - Accra & Tema Only)</label></li>
-                                   <li> <label><input type="radio" name="optradio">Mobile Money</label></li>
+                                    <li><label class="payment-method-visa"><input type="radio" name="optradio">Payment on Delivery - Cash or Point Of Sale (P.O.S) Device(Ghana - Accra & Tema Only)</label></li>
+                                   <li> <label class="payment-method-mmoney"><input type="radio" name="optradio">Mobile Money</label></li>
                                     </ul>
                                 </div>
                                         </div>
@@ -229,7 +229,7 @@
                                          
   <label class="form-check-label">
     <input class="form-check-input" type="checkbox" value="">
-    I've read and accepted the<a href="#" style="text-decoration: none;"> terms & conditions </a>*
+    I've read and accepted the<a href="#" style="text-decoration: none;"> terms & conditions</a><span style="color: red;">*</span>
   </label>
 </div>
                                   <div class="text-right">
@@ -239,13 +239,49 @@
       <footer class="footer-cust">
            <div class="container">
                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <h3>Services</h3>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <h3 class="text-center">Services</h3>
                             <ul>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
                                 <li>
                                     <a href="#">Returns Policy</a>
                                 </li>
+                                <li>
+                                    <a href="#">Privacy & cookie policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms & conditions</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <h3>About Us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Site Map</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <h3>Helping links</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Buying guide</a>
+                            </li>
+                            <li>
+                                <a href="#">Sizing guide</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-md-offset-2 col-sm-4 col-xs-6">
+                        <h3>Stay in touch</h3>
 
+<!----CHECK MEDIA QUERIES FOR PAYMENT METHOD LOGO AND PLACE ORDER BUTTOM-->
        </footer>
                       
 
@@ -254,7 +290,7 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="static/bootstrap.js"></script>
+    <script src="bootstrap.js"></script>
     <script src="https://use.fontawesome.com/e7c7bd093f.js"></script>
 </body>
 </html>
