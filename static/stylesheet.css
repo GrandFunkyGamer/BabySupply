@@ -1,6 +1,6 @@
 .jumbotron {
     position: relative;
-    background: rgba(0, 0, 0, 0) url("img/thebabyhub.svg") center center;
+    background: rgba(0, 0, 0, 0) url("/static/img/thebabyhub.svg") center center;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -117,7 +117,7 @@ a i.fa {
 /* For width 768px and smaller: */
 @media only screen and (max-width: 768px) {
     body .jumbotron { 
-       background-image: url("img/thebabyhubsm.svg"); 
+       background-image: url("/static/img/thebabyhubsm.svg"); 
        width: 100%;
         height: 100%;
         background-size: cover;
